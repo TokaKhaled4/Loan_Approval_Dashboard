@@ -1,0 +1,47 @@
+/* Remove default margin and padding from body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+}
+.header{
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;    
+}
+
+
+/* Ensure the Dash app container fills the entire screen */
+#react-entry-point {
+    height: 100%;
+}
+/* Custom CSS for dropdown list */
+.custom-dropdown .VirtualizedSelectOption {
+    background-color: black !important;
+    color: white !important;
+}
+
+.custom-dropdown .VirtualizedSelectFocusedOption {
+    background-color: #333333 !important;
+    color: white !important;
+}
+
+.custom-dropdown .Select-menu-outer {
+    background-color: black !important;
+    color: white !important;
+}
+
+.custom-dropdown .Select-control {
+    background-color: black !important;
+    color: white !important;
+    border-color: #333333 !important;
+}
+
+.custom-dropdown .Select-value-label {
+    color: white !important;
+}
