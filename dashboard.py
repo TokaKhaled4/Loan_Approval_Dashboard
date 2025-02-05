@@ -17,6 +17,7 @@ df['Credit_History'] = df['Credit_History'].fillna(df['Credit_History'].mode()[0
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server=app.server
 
 # App layout
 app.layout = html.Div([
