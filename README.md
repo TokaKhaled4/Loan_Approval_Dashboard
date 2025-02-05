@@ -1,5 +1,7 @@
 # Loan Approval Dashboard
 
+## Overview
+
 This project is an interactive dashboard built with **Dash** and **Plotly** for visualizing loan approval data. It provides users with dynamic tools to filter and analyze loan data based on property area, gender, dependents, and income. The dashboard includes various charts such as pie charts, heat maps, scatter plots, and histograms to provide comprehensive insights into loan approvals.
 
 ## Features
@@ -12,4 +14,8 @@ This project is an interactive dashboard built with **Dash** and **Plotly** for 
   - **Scatter Plot**: Visualizes the relationship between applicant income and loan amount.
   - **Histogram**: Displays the distribution of loan amounts.
   - **Donut Chart**: Illustrates loan status distribution filtered by dependents.
+ 
+ ## Project Link
+
+Access the live application here: [Project Link](https://loan-approval-dashboard.onrender.com)  
 
